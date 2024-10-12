@@ -1,0 +1,7 @@
+services:
+  web:
+    build: .
+    ports:
+      - ""
+  redis:
+    image: "redis:alpine"
